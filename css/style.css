@@ -1,0 +1,43 @@
+:root {
+    --darkBlueShadow: #17a2b8;
+}
+
+body {
+    background-color: #24353F;
+}
+
+.form-control:focus {
+    border-color: var(--darkBlueShadow);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--darkBlueShadow);
+}
+
+.submit-btn .btn {
+    border: 1px solid var(--darkBlueShadow);
+    color: var(--darkBlueShadow);
+}
+
+.submit-btn .btn:hover {
+    background-color: var(--darkBlueShadow);
+}
+
+.btn-outline-warning {
+    color: white;
+}
+
+.btn-outline-warning:hover {
+    color: white;
+}
+
+.home-content p {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
+
+.boxShadow {
+    box-shadow: 10px 10px 20px 15px rgba(0, 0, 0, 0.3);
+}
